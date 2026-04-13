@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30CB34D72F8CC7AF00699281 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34D42F8CC7AF00699281 /* SaveService.swift */; };
+		30CB34D82F8CC7AF00699281 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34D22F8CC7AF00699281 /* PersistenceManager.swift */; };
+		30CB34D92F8CC7AF00699281 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34D52F8CC7AF00699281 /* StartMainView.swift */; };
+		30CB34DA2F8CC7AF00699281 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34D32F8CC7AF00699281 /* PrivacyWebView.swift */; };
+		30CB34DB2F8CC7AF00699281 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB34D12F8CC7AF00699281 /* AppRouter.swift */; };
 		746A044C2F8033FB0076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A04102F8033FB0076A047 /* ContentView.swift */; };
 		746A044D2F8033FB0076A047 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A04122F8033FB0076A047 /* Color+App.swift */; };
 		746A044E2F8033FB0076A047 /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A04142F8033FB0076A047 /* DomainModels.swift */; };
@@ -48,6 +53,11 @@
 /* Begin PBXFileReference section */
 		0E21FC6B645695FADADF10B9 /* Pods-130DagelxuForvetror.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-130DagelxuForvetror.release.xcconfig"; path = "Target Support Files/Pods-130DagelxuForvetror/Pods-130DagelxuForvetror.release.xcconfig"; sourceTree = "<group>"; };
 		17C6E1000520D95E238F3FC3 /* Pods_130DagelxuForvetror.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_130DagelxuForvetror.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CB34D12F8CC7AF00699281 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		30CB34D22F8CC7AF00699281 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		30CB34D32F8CC7AF00699281 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		30CB34D42F8CC7AF00699281 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		30CB34D52F8CC7AF00699281 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		746A02DB2F802EA30076A047 /* 130DagelxuForvetror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 130DagelxuForvetror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A04102F8033FB0076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		746A04122F8033FB0076A047 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
@@ -100,6 +110,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30CB34D62F8CC7AF00699281 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30CB34D12F8CC7AF00699281 /* AppRouter.swift */,
+				30CB34D22F8CC7AF00699281 /* PersistenceManager.swift */,
+				30CB34D32F8CC7AF00699281 /* PrivacyWebView.swift */,
+				30CB34D42F8CC7AF00699281 /* SaveService.swift */,
+				30CB34D52F8CC7AF00699281 /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		54B3AD15F9E2D6EACC1EA61D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +348,7 @@
 				746A04482F8033FB0076A047 /* Main.storyboard */,
 				746A04492F8033FB0076A047 /* SceneDelegate.swift */,
 				746A044A2F8033FB0076A047 /* ViewController.swift */,
+				30CB34D62F8CC7AF00699281 /* Router */,
 			);
 			path = 130DagelxuForvetror;
 			sourceTree = "<group>";
@@ -447,6 +470,11 @@
 				746A04542F8033FB0076A047 /* AcademyButtons.swift in Sources */,
 				746A04552F8033FB0076A047 /* Haptics.swift in Sources */,
 				746A04562F8033FB0076A047 /* StarShape.swift in Sources */,
+				30CB34D72F8CC7AF00699281 /* SaveService.swift in Sources */,
+				30CB34D82F8CC7AF00699281 /* PersistenceManager.swift in Sources */,
+				30CB34D92F8CC7AF00699281 /* StartMainView.swift in Sources */,
+				30CB34DA2F8CC7AF00699281 /* PrivacyWebView.swift in Sources */,
+				30CB34DB2F8CC7AF00699281 /* AppRouter.swift in Sources */,
 				746A04572F8033FB0076A047 /* AcademyDepth.swift in Sources */,
 				746A04582F8033FB0076A047 /* AchievementsView.swift in Sources */,
 				746A04592F8033FB0076A047 /* LanguageAdventureView.swift in Sources */,
@@ -517,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ans.d7g2lx9f0rv3tr0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -557,7 +585,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ans.d7g2lx9f0rv3tr0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
